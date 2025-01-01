@@ -1,4 +1,4 @@
-# Air Quality Frontend
+# Air Quality Information Hub - Frontend Application
 
 ## Project Overview
 
@@ -75,3 +75,13 @@ Run the development server with the following command:
 npm run dev
 ```
 The React app will now be running on http://localhost:5173.
+
+## Proposed Features and Enhancements
+
+The following features are planned to enhance the Air Quality frontend application:
+
+- **Search Bar Inside GeoPlaceNames Dropdown**: A search feature will be added to the GeoPlaceNames dropdown to help users quickly find specific geo place names.
+- **Air Quality Analysis Page**: A new page will be developed to visually compare air quality data through various chart types (e.g., bar charts and line charts). Users will be able to compare air quality by location, year, and indicator.
+- **Pollution Sources**: A section will be added to display the main indicators of pollution for each location, based on air quality indicators like Ozone and Nitrogen.
+- **Time Series Analysis**: Line charts will be implemented to show trends over time for air quality data.
+- **Export Data**: Users will be able to export displayed data into formats like CSV, Excel, and PDF for offline analysis or reporting.
